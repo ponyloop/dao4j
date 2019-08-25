@@ -1,8 +1,4 @@
+mod traits;
 
-pub trait Label {
-    fn to_string(&self) -> String;
-}
-
-pub trait Relation {
-    fn to_string(&self) -> String;
-}
+pub use traits::label::Label;
+pub use traits::relation::Relation;
