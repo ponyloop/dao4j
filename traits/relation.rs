@@ -1,3 +1,3 @@
 pub trait Relation {
-    fn to_string(&self) -> String;
+    fn to_query_string(&self) -> String;
 }
