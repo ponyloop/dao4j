@@ -1,6 +1,7 @@
-use super::super::traits::relation::Relation;
+use super::super::traits::relation::Label;
 
-pub enum Edge<T: Relation> {
+pub enum Edge<T: Label> {
     Empty,
-    Relation(T)
+    ArrowTo(T),
+    ArrowFrom(T)
 }
