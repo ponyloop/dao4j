@@ -1,4 +1,4 @@
-use super::super::traits::relation::Label;
+use super::super::traits::label::Label;
 
 pub enum Edge<T: Label> {
     Empty,
